@@ -1,0 +1,27 @@
+/* *{
+  border: solid 1px black;
+} */
+
+.card{
+  width:800px;
+  display: flex;
+  border: solid 2px black;
+}
+
+.left{
+  width: 30%;
+  background-image: url(https://cdn.hk01.com/di/media/images/2729693/org/eb92d3d48bdbfc8ad62f8fc3ee025fe9.jpg/42864ducQ7NVV3xTu1pwtawXyGcCDf0UT7G0RE-xtEQ?v=w1920);
+  background-size: cover;
+}
+
+.right{
+  width:70%;
+}
+/* display:inline-block; 顯示排成同一行
+vertical-align:top; 向上對齊 */
+
+ul li{
+  width:30%;
+  display: inline-block;
+  vertical-align: top;
+}
